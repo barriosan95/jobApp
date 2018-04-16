@@ -52,6 +52,8 @@ class CreateProfileVC: UIViewController {
                 
             } else {
                 
+                // a test
+                
                 currentUser = user!
                 
                 print ("Success-1: New Firebase user account created!")
@@ -62,6 +64,8 @@ class CreateProfileVC: UIViewController {
 
                 
                 self.performSegue(withIdentifier: "CreateProfileVC_to_EditProfileVC", sender: Any?.self) // after user created send to edit profile vc
+                
+                
                 
             }
         }
