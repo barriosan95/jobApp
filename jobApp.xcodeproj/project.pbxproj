@@ -12,6 +12,7 @@
 		340DCCF01FFC592400124E9E /* briefcase_uncolored.png in Resources */ = {isa = PBXBuildFile; fileRef = 340DCCEF1FFC592400124E9E /* briefcase_uncolored.png */; };
 		341786F2200000F200F59611 /* check mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 341786F1200000F200F59611 /* check mark.png */; };
 		341786F4200000FB00F59611 /* x mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 341786F3200000FB00F59611 /* x mark.png */; };
+		34653B79208E5EA60081EBDE /* settings_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 34653B78208E5EA60081EBDE /* settings_img.png */; };
 		346C92A81FCB385A00F031E0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C92A71FCB385A00F031E0 /* HomeVC.swift */; };
 		348B2D4D2001267D006C64DD /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B2D4C2001267D006C64DD /* Job.swift */; };
 		348B2D5120012E61006C64DD /* PostViewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B2D5020012E61006C64DD /* PostViewDetails.swift */; };
@@ -46,6 +47,7 @@
 		341786F3200000FB00F59611 /* x mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "x mark.png"; path = "Assets/x mark.png"; sourceTree = SOURCE_ROOT; };
 		3446D7AE1FCB6F0E0055CEB2 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
 		345EB1B41FCB668500363943 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		34653B78208E5EA60081EBDE /* settings_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_img.png; sourceTree = "<group>"; };
 		346C92A71FCB385A00F031E0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		348B2D4C2001267D006C64DD /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		348B2D5020012E61006C64DD /* PostViewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewDetails.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		340DCCF11FFC593200124E9E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				34653B78208E5EA60081EBDE /* settings_img.png */,
 				34BBC7551F985AD400683261 /* briefcase */,
 				341786F1200000F200F59611 /* check mark.png */,
 				341786F3200000FB00F59611 /* x mark.png */,
@@ -263,6 +266,7 @@
 				34EF2AB11FFB153B00F1E02B /* phone.png in Resources */,
 				3493F40E1FFD7633009DD357 /* backbtn.png in Resources */,
 				34BBC74C1F98546500683261 /* LaunchScreen.storyboard in Resources */,
+				34653B79208E5EA60081EBDE /* settings_img.png in Resources */,
 				340DCCEE1FFC585B00124E9E /* user-colored.png in Resources */,
 				34903F221F98604100C331E3 /* GoogleService-Info.plist in Resources */,
 				341786F2200000F200F59611 /* check mark.png in Resources */,

@@ -28,10 +28,38 @@ class UserProfileVC: UIViewController,UITableViewDataSource,UITableViewDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
         loadPrefences()
         self.prefencesTableView.delegate = self
         self.prefencesTableView.dataSource = self
         // Do any additional setup after loading the view.
+        
+        ref = Database.database().reference()
+        
+        
+        
+        
+        //will stop working after user exits app - causing a crash
+        
+        /*
+        ref?.child("Users").child((currentUser?.uid)!).observe(DataEventType.value, with: { (snapshot) in
+            
+            let value = snapshot.value as? NSDictionary
+            let name = value?["Full Name"] as? String
+            let university = value?["University"] as? String
+            
+
+            self.university_name.text = university
+            self.firstName.text = name
+     
+        })
+ 
+ */
+ 
+
+
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -88,6 +116,11 @@ class UserProfileVC: UIViewController,UITableViewDataSource,UITableViewDelegate{
     @IBAction func rightSwipe(_ sender: UISwipeGestureRecognizer) {
         
         performSegue(withIdentifier: "UserProfileVC_to_HomeVC", sender: Any?.self)
+    }
+    
+    
+    @IBAction func toEditVCBtn(_ sender: Any) {
+        performSegue(withIdentifier: "UserProfileVC_to_EditProfileVC", sender: Any?.self)
     }
     
     

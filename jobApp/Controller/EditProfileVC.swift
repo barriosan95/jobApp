@@ -21,7 +21,6 @@ class EditProfileVC: UIViewController {
     @IBOutlet weak var grad_Date: UIDatePicker!
     @IBOutlet weak var gpa: UITextField!
     @IBOutlet weak var contat_Number: UITextField!
-    @IBOutlet weak var email: UITextField!
     
     
     var ref: DatabaseReference! //create a reference to Firebase Database
@@ -56,7 +55,6 @@ class EditProfileVC: UIViewController {
             "Full Name": full_Name.text!,
             "University": university_Name.text!,
             "Major(s)":   major_Name.text!,
-            //"Email": email.text!
         ]
         
         self.ref.child("Users").child(currentUser.uid).setValue(post)
